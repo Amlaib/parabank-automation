@@ -1,0 +1,13 @@
+# Ignore build artifacts and IntelliJ/VSCode configs
+target/
+*.iml
+.idea/
+.vscode/
+*.class
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Allure results
+allure-results/
