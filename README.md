@@ -41,16 +41,33 @@ parabank-automation/
 #bash
 mvn clean test
 ```
+_Test failures will automatically capture a screenshot and save it to target/screenshots/._
 ---
-## Current Test Cases:
-✅ Login Test with valid credentials
 
-✅ Assertion for login success
+## ✅ Current Features
 
-🔜 Screenshot capture on failure
+✔️ Login test using valid credentials
 
-🔜 API tests + UI/API integration test
+✔️ Assertions for login success
 
-🔜 Allure reports
+✔️ Screenshot capture on failure (via TestNG listener)
+
+🔜 API test integration with Rest-Assured
+
+🔜 Allure HTML reports
+
+🔜 Jenkins CI/CD pipeline
+
+🔜 Docker containerization
+
+---
+📸 Example Screenshot (on failure)
+Captured screenshots are stored here:
+target/screenshots/{test-name}-{timestamp}.png
+
+---
+
+🚧 Work in Progress
+This is an evolving project meant for showcasing real-world QA automation best practices and CI/CD integration.
 
 ---
