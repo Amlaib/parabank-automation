@@ -5,6 +5,7 @@ target/screenshots/
 .idea/
 .vscode/
 *.class
+logs/
 
 # OS junk
 .DS_Store
